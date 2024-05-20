@@ -1,0 +1,97 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 500px;
+  padding: 40px 15px 50px 15px;
+  border: 2px solid lightslategray;
+  border-radius: 15px;
+}
+
+.formTitle {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.inputDiv {
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 6px 7px;
+  border: 2px solid lightslategray;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  margin: 7px 0px;
+  background-color: #2d3745;
+  outline: none;
+}
+
+input::placeholder {
+  color: lightgray;
+}
+
+input:focus {
+  border-color: lightblue;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0px;
+  background-color: green;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #0fb301;
+}
+
+.link {
+  color: lightseagreen;
+}
+
+.input-error {
+  border-color: #fc8181;
+}
+
+.errorMessage {
+  color: #fc8181;
+  font-size: 12px;
+}
+.inputCheckbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.inputCheckbox input {
+  width: auto;
+  cursor: pointer;
+}
+
+.inputCheckbox span {
+  display: flex;
+  align-items: center;
+  color: #f3f3f3;
+  font-size: small;
+  margin-left: 5px;
+}
